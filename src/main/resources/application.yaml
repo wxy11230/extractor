@@ -1,0 +1,38 @@
+#database config
+mapper:
+  master:
+    datasource:
+      url: 'jdbc:mysql://120.46.176.240:3306/DTB_ODS_METADATA_V_2_2_CDH?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true'
+      username: root
+      password: 'Seres@2022'
+      driverClassName: com.mysql.jdbc.Driver
+
+#mybatis log config
+logging:
+  level:
+    com.dtb.metadatahub.repository.mysql: DEBUG
+  config: classpath:log.xml
+ 
+#executor config   
+executor: 
+  common: 
+    property: 
+      corePoolSize: 50
+      maxPoolSize: 100
+      queueCapacity: 200
+      threadNamePrefix: executor-thread-
+      awaitSecond: 60
+      shutdown: true
+      
+batch: 
+  insert: 
+    nums: 100
+    
+jasypt: 
+  encryptor: 
+    password: DTBMetadataExtractor
+    
+lineage: 
+  life: 
+    survival: 
+      time: 12

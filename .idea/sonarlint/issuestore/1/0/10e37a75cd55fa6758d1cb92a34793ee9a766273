@@ -1,0 +1,81 @@
+
+Q
+java:S3740R"/Provide the parametrized type for this generic.(Úºèƒşÿÿÿÿ8ùÖãƒ£1
+J
+java:S3740U"/Provide the parametrized type for this generic.(‡İÊÑıÿÿÿÿ
+Q
+java:S3740b"/Provide the parametrized type for this generic.(¤İ÷›üÿÿÿÿ8ùÖãƒ£1
+F
+java:S3740§"/Provide the parametrized type for this generic.(²‘ªş
+M
+java:S3740Å"/Provide the parametrized type for this generic.(Â×8ûãäƒ£1
+M
+java:S3740È"/Provide the parametrized type for this generic.(­¬Ç‡8ûãäƒ£1
+R
+java:S3740…"/Provide the parametrized type for this generic.(°¾‘ıÿÿÿÿ8üãäƒ£1
+t
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(–²éØûÿÿÿÿ
+o
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùœ‹Â
+o
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌİÌ
+o
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(©ãòª
+p
+java:S1192j"NDefine a constant instead of duplicating this literal "mpp_greenplum" 5 times.(ÊŸÇÂşÿÿÿÿ8ƒ®ãƒ£1
+l
+java:S1192h"JDefine a constant instead of duplicating this literal "mpp_gauss" 5 times.(×Ì°Äûÿÿÿÿ8„®ãƒ£1
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‡ª­
+g	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ñ¢—
+g	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù”Ãó
+l	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ïçµúÿÿÿÿ
+g	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÏ¨¤
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ†Û¿şÿÿÿÿ
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¼”ûıÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ø…á
+l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í–›³ûÿÿÿÿ
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®µ‘±
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÖÄıÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÜÔˆıÿÿÿÿ
+g	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬®ÇØ
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ı©
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö×ñ
+g	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öËà»
+y
+java:S1488§"bImmediately return this expression instead of assigning it to the temporary variable "schemaList".(²‘ªş
+G
+java:S1905;",Remove this unnecessary cast to "Throwable".(¨ÿó€ùÿÿÿÿ
+G
+java:S1905<",Remove this unnecessary cast to "Throwable".(ŒÑ¥Æøÿÿÿÿ
+m
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(üæ‹Õùÿÿÿÿ
+L
+java:S1905s"*Remove this unnecessary cast to "Integer".(İé£©şÿÿÿÿ8¯®ãƒ£1
+E
+java:S1905’")Remove this unnecessary cast to "Object".(ù‚Àãşÿÿÿÿ
+@
+java:S1905¤")Remove this unnecessary cast to "Object".(´òûú
+@
+java:S1905¤")Remove this unnecessary cast to "Object".(´òûú
+q
+java:S3776«"SRefactor this method to reduce its Cognitive Complexity from 102 to the 15 allowed.(´çİ—8Ìääƒ£1
+U
+java:S1611´"2Remove the parentheses around the "item" parameter(Œñîüşÿÿÿÿ8Øääƒ£1
+v
+java:S1602´"SRemove useless curly braces around statement and then remove useless return keyword(Œñîüşÿÿÿÿ8Úääƒ£1
+E
+java:S1905½"'Remove this unnecessary cast to "List".(Èû’Î8Üääƒ£1
+P
+java:S1611½"2Remove the parentheses around the "item" parameter(Èû’Î8İääƒ£1
+q
+java:S1602½"SRemove useless curly braces around statement and then remove useless return keyword(Èû’Î8İääƒ£1
+J
+java:S1905Ö"'Remove this unnecessary cast to "Long".(¡ìÍıÿÿÿÿÿ8ßääƒ£1
+`
+java:S1126è"BReplace this if-then-else statement by a single method invocation.(Æüœ‚8áääƒ£1
+U
+java:S1854›"9Remove this useless assignment to local variable "PRIME".(ğÉÖÄıÿÿÿÿ
+F
+java:S1481›"*Remove this unused "PRIME" local variable.(ğÉÖÄıÿÿÿÿ
+å
+java:S6541«"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 113 to 64, Complexity from 26 to 14, Nesting Level from 8 to 2, Number of Variables from 29 to 6.(´çİ—8ìääƒ£1

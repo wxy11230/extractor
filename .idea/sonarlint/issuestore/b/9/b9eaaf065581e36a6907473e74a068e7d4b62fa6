@@ -1,0 +1,80 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÙÊ‡¨üÿÿÿÿ
+[	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(–ïŠÚ
+`	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(ÕœË±ıÿÿÿÿ
+`	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(©‘ùÿÿÿÿ
+a	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(¯şşÏùÿÿÿÿ
+\	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(úô˜ê
+a	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(«šò¥ùÿÿÿÿ
+\	java:S112°"FDefine and throw a dedicated exception instead of using a generic one.( Œ»¼
+a	java:S112Ä"FDefine and throw a dedicated exception instead of using a generic one.(¨Ñ¥ùÿÿÿÿ
+\	java:S112×"FDefine and throw a dedicated exception instead of using a generic one.(´ÛË¥
+a	java:S112é"FDefine and throw a dedicated exception instead of using a generic one.(¬ªàçÿÿÿÿÿ
+\	java:S112û"FDefine and throw a dedicated exception instead of using a generic one.(âÕÊÈ
+a
+java:S1192l"FDefine a constant instead of duplicating this literal "TABLE" 3 times.(Ø ¦üÿÿÿÿ
+a
+java:S1192("KDefine a constant instead of duplicating this literal "rdb_oracle" 9 times.(ùÎÏ³
+~
+java:S1488Y"hImmediately return this expression instead of assigning it to the temporary variable "databaseMetaData".(†õ
+ˆ
+java:S1845ˆ"lRename method "getDatabaseMetaData" to prevent any misunderstanding/clash with method "getDatabaseMetadata".(ÁÑ°õùÿÿÿÿ
+B
+java:S1905",Remove this unnecessary cast to "Throwable".(Òû¦Í
+1
+java:S3626M"Remove this redundant jump.(ûÁİ…
+1
+java:S3626P"Remove this redundant jump.(ûÁİ…
+1
+java:S3626T"Remove this redundant jump.(ûÁİ…
+7	java:S131'""Add a default case to this switch.(°ÇŒÛ
+G
+java:S1905S",Remove this unnecessary cast to "Throwable".(ÇÕÀƒüÿÿÿÿ
+Z
+java:S1117Y"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+Z
+java:S1117k"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+Z
+java:S1854u"DRemove this useless assignment to local variable "databaseMetaData".(†õ
+Z
+java:S1117u"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+K
+java:S1481u"5Remove this unused "databaseMetaData" local variable.(†õ
+Z
+java:S1117~"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1117„"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1117‹"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1117"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1117²"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1117Å"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1854Ï"DRemove this useless assignment to local variable "databaseMetaData".(†õ
+[
+java:S1117Ï"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+L
+java:S1481Ï"5Remove this unused "databaseMetaData" local variable.(†õ
+[
+java:S1117Ø"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1854á"DRemove this useless assignment to local variable "databaseMetaData".(†õ
+[
+java:S1117á"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+L
+java:S1481á"5Remove this unused "databaseMetaData" local variable.(†õ
+[
+java:S1117ê"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+[
+java:S1854ó"DRemove this useless assignment to local variable "databaseMetaData".(†õ
+[
+java:S1117ó"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+L
+java:S1481ó"5Remove this unused "databaseMetaData" local variable.(†õ
+[
+java:S1117ü"DRename "databaseMetaData" which hides the field declared at line 19.(†õ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ˆŞ¯êüÿÿÿÿ

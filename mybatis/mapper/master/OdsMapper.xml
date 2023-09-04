@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dtb.metadatahub.repository.mysql.OdsDao">
+
+    <parameterMap id="odsHiveDBBean" type="com.dtb.metadatahub.entity.HiveDatabaseDO"/>
+    <parameterMap id="odsHiveTBBean" type="com.dtb.metadatahub.entity.HiveTableDO"/>
+    <parameterMap id="odsHiveColBean" type="com.dtb.metadatahub.entity.HiveColumnDO"/>
+    <parameterMap id="odsHiveViewBean" type="com.dtb.metadatahub.entity.HiveViewDO"/>
+    <parameterMap id="rdbDatabaseBean" type="com.dtb.metadatahub.entity.RdbDatabaseDO"/>
+    <parameterMap id="rdbTableBean" type="com.dtb.metadatahub.entity.RdbTableDO"/>
+    <parameterMap id="rdbColumnBean" type="com.dtb.metadatahub.entity.RdbColumnDO"/>
+    <parameterMap id="mppDatabaseBean" type="com.dtb.metadatahub.entity.MppDatabaseDO"/>
+    <parameterMap id="mppTableBean" type="com.dtb.metadatahub.entity.MppTableDO"/>
+    <parameterMap id="mppColumnBean" type="com.dtb.metadatahub.entity.MppColumnDO"/>
+    <parameterMap id="kafkaBrokerBean" type="com.dtb.metadatahub.entity.KafkaBrokerDO"/>
+    <parameterMap id="kafkaTopicBean" type="com.dtb.metadatahub.entity.KafkaTopicDO"/>
+    <parameterMap id="kafkaPartitionBean" type="com.dtb.metadatahub.entity.KafkaPartitionDO"/>
+
+    <insert id="addOdsHiveDatabaseList" parameterMap="odsHiveDBBean">
+        insert into ods_hive_database 
+        (id, guid, name, description, type_name, status , owner, owner_type, qualified_name, cluster_name, 
+         location, version, create_by, create_time, update_by, update_time, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.description},
+        	#{item.typeName},
+        	#{item.status},
+        	#{item.owner},
+        	#{item.ownerType},
+        	#{item.qualifiedName},
+        	#{item.clusterName},
+        	#{item.location},
+        	#{item.version},
+        	#{item.createBy},
+        	#{item.createTime},
+        	#{item.updateBy},
+        	#{item.updateTime},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsHiveViewList" parameterMap="odsHiveViewBean">
+        insert into ods_hive_view
+        (id, guid, name, description, comment, type_name, table_type,
+         status, is_temporary, query_text, db_guid, db_name, qualified_name, 
+         owner, version, create_by, create_time, update_by, update_time, last_access_time, 
+         original_text, expanded_text, record_status, record_create_time,column_num)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.description},
+        	#{item.comment},
+        	#{item.typeName},
+        	#{item.tableType},
+        	#{item.status},
+        	#{item.isTemporary},
+        	#{item.queryText},
+        	#{item.dbGuid},
+        	#{item.dbName},
+        	#{item.qualifiedName},
+        	#{item.owner},
+        	#{item.version},
+        	#{item.createBy},
+        	#{item.createTime},
+        	#{item.updateBy},
+        	#{item.updateTime},
+        	#{item.lastAccessTime},
+        	#{item.originalText},
+        	#{item.expandedText},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime},
+        	#{item.columnNum}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsHiveTableList" parameterMap="odsHiveTBBean">
+        insert into ods_hive_table
+        (id, guid, name, db_guid, db_name, description , comment, 
+         type_name, table_type, status, is_temporary, query_text, total_size, row_data_size, 
+         num_rows, num_files, partition_keys, qualified_name, owner, location, version, 
+         create_by, create_time, update_by, update_time, record_status, record_create_time,column_num)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.dbGuid},
+        	#{item.dbName},
+        	#{item.description},
+        	#{item.comment},
+        	#{item.typeName},
+        	#{item.tableType},
+        	#{item.status},
+        	#{item.isTemporary},
+        	#{item.queryText},
+        	#{item.totalSize},
+        	#{item.rowDataSize},
+        	#{item.numRows},
+        	#{item.numFiles},
+        	#{item.partitionKeys},
+        	#{item.qualifiedName},
+        	#{item.owner},
+        	#{item.location},
+        	#{item.version},
+        	#{item.createBy},
+        	#{item.createTime},
+        	#{item.updateBy},
+        	#{item.updateTime},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime},
+        	#{item.columnNum}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsHiveColumnList" parameterMap="odsHiveColBean">
+        insert into ods_hive_column
+        (id, guid, name, table_guid, table_name, comment, description, 
+         type_name, data_type, column_type, is_primarykey, status, position, qualified_name, 
+         owner, version, create_by, create_time, update_by, update_time, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.tableGuid},
+        	#{item.tableName},
+        	#{item.comment},
+        	#{item.description},
+        	#{item.typeName},
+        	#{item.dataType},
+        	#{item.columnType},
+        	#{item.isPrimarykey},
+        	#{item.status},
+        	#{item.position},
+        	#{item.qualifiedName},
+        	#{item.owner},
+        	#{item.version},
+        	#{item.createBy},
+        	#{item.createTime},
+        	#{item.updateBy},
+        	#{item.updateTime},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsRdbDatabaseList" parameterMap="rdbDatabaseBean">
+        insert into ods_rdb_database (
+        	guid,
+        	name,
+        	user,
+        	url,
+        	user_name,
+        	password,
+        	type_name,
+        	qualified_name,
+        	sub_type_name,
+        	product_name,
+        	product_version,
+         	driver_name,
+         	driver_version,
+         	status,
+         	version,
+         	record_status,
+         	record_create_time) values
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.guid},
+        	#{item.name},
+        	#{item.user},
+        	#{item.url},
+        	#{item.userName},
+        	#{item.password},
+        	#{item.typeName},
+        	#{item.qualifiedName},
+        	#{item.subTypeName},
+        	#{item.productName},
+        	#{item.productVersion},
+        	#{item.driverName},
+        	#{item.driverVersion},
+        	#{item.status},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsRdbTableList" parameterMap="rdbTableBean">
+        insert into ods_rdb_table 
+        (guid, name, comment, db_name, db_url, type_name, sub_type_name, table_type, primary_key, 
+         qualified_name, column_num, row_num, table_size, ddl, create_time, status, version,
+         record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.guid},
+        	#{item.name},
+        	#{item.comment},
+        	#{item.dbName},
+        	#{item.dbUrl},
+        	#{item.typeName},
+        	#{item.subTypeName},
+        	#{item.tableType},
+        	#{item.primaryKey},
+        	#{item.qualifiedName},
+        	#{item.columnNum},
+        	#{item.rowNum},
+        	#{item.tableSize},
+        	#{item.ddl},
+        	#{item.createTime},
+        	#{item.status},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsRdbColumnList" parameterMap="rdbColumnBean">
+        insert into ods_rdb_column 
+        (guid, name, comment, type_name, column_type, sub_type_name, data_type_name, qualified_name, column_size, 
+         char_octet_length, decimal_digits, num_prec_radix, nullable, columnDef, is_primary, ordinal_position, 
+         table_name, database_name, status, version, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.guid},
+        	#{item.name},
+        	#{item.comment},
+        	#{item.typeName},
+        	#{item.columnType},
+        	#{item.subTypeName},
+        	#{item.dataTypeName},
+        	#{item.qualifiedName},
+        	#{item.columnSize},
+        	#{item.charOctetLength},
+        	#{item.decimalDigits},
+        	#{item.numPrecRadix},
+        	#{item.nullable},
+        	#{item.columnDef},
+        	#{item.isPrimary},
+        	#{item.ordinalPosition},
+        	#{item.tableName},
+        	#{item.databaseName},
+        	#{item.status},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsMppDatabaseList" parameterMap="mppDatabaseBean">
+        insert into ods_mpp_database 
+        (id, guid, name, encoding, connlimit, table_space, type_name , qualified_name,url,user_name,password, owner,
+         datctype, is_template, allowconn, version, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.encoding},
+        	#{item.connlimit},
+        	#{item.tableSpace},
+        	#{item.typeName},
+        	#{item.qualifiedName},
+        	#{item.url},
+        	#{item.userName},
+        	#{item.password},
+        	#{item.owner},
+        	#{item.datctype},
+        	#{item.isTemplate},
+        	#{item.allowconn},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsMppTableList" parameterMap="mppTableBean">
+        insert into ods_mpp_table 
+        (id, guid, name, type_name, qualified_name, comment, db_name, db_guid, 
+         parttype, is_temporary, ddl, name_space, table_space, column_num, row_num,
+         table_size, owner, kine_name, is_hasPkKey, version, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.typeName},
+        	#{item.qualifiedName},
+        	#{item.comment},
+        	#{item.dbName},
+        	#{item.dbGuid},
+        	#{item.parttype},
+        	#{item.isTemporary},
+        	#{item.ddl},
+        	#{item.nameSpace},
+        	#{item.tableSpace},
+        	#{item.columnNum},
+        	#{item.rowNum},
+        	#{item.tableSize},
+        	#{item.owner},
+        	#{item.kineName},
+        	#{item.isHasPkKey},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsMppColumnList" parameterMap="mppColumnBean">
+        insert into ods_mpp_column 
+        (id, guid, name, type_name, qualified_name, tb_name, tb_guid, column_type, column_type_len, 
+         comment, null_able, position, version, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.name},
+        	#{item.typeName},
+        	#{item.qualifiedName},
+        	#{item.tbName},
+        	#{item.tbGuid},
+        	#{item.columnType},
+        	#{item.columnTypeLen},
+        	#{item.comment},
+        	#{item.nullAble},
+        	#{item.position},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsKafkaBrokerList" parameterMap="kafkaBrokerBean">
+        insert into ods_kafka_broker 
+        (id, guid, cluster_id, qualified_name, host, port, 
+         version, create_time, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.clusterId},
+        	#{item.qualifiedName},
+        	#{item.host},
+        	#{item.port},
+        	#{item.version},
+        	#{item.createTime},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsKafkaTopicList" parameterMap="kafkaTopicBean">
+        insert into ods_kafka_topic 
+        (id, guid, cluster_id, name, qualified_name, 
+         version, partition_num, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.clusterId},
+        	#{item.name},
+        	#{item.qualifiedName},
+        	#{item.version},
+        	#{item.partitionNum},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+    
+    <insert id="addOdsKafkaPartitionList" parameterMap="kafkaPartitionBean">
+        insert into ods_kafka_partition
+        (id, guid, topic_name, qualified_name, isr_num, 
+         leader_broker_id, version, record_status, record_create_time)
+        values 
+        <foreach collection="list" item="item" separator=",">
+        (
+        	#{item.id},
+        	#{item.guid},
+        	#{item.topicName},
+        	#{item.qualifiedName},
+        	#{item.isrNum},
+        	#{item.leaderBrokenId},
+        	#{item.version},
+        	#{item.recordStatus},
+        	#{item.recordCreateTime}
+        )
+        </foreach>
+    </insert>
+
+</mapper>

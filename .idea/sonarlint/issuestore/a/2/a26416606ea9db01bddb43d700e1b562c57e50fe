@@ -1,0 +1,37 @@
+
+l	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àã¢©øÿÿÿÿ
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸®ÇŞùÿÿÿÿ
+l	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÖÄıÿÿÿÿ
+l	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÉ”ûÿÿÿÿ
+x
+java:S3008"]Rename this field "DEFAULT_IGNORE_DDL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¬Ÿ¦şÿÿÿÿ
+{
+java:S3008"`Rename this field "DEFAULT_IGNORE_ROWNUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£•€™üÿÿÿÿ
+y
+java:S3008"cRename this field "DEFAULT_IGNORE_TABLESIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ê„í
+x
+java:S3008"bRename this field "DEFAULT_CONNECT_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò®÷
+|
+java:S3008 "aRename this field "DEFAULT_SOCKET_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‡õ´şÿÿÿÿ
+|
+java:S3008!"aRename this field "EXTRACT_DATABASE_NAMES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€òä•øÿÿÿÿ
+v
+java:S3008""`Rename this field "IGNORE_DATABASE_NAMES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘èÖ¤
+y
+java:S3008#"^Rename this field "EXTRACT_TABLE_NAMES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‰ù“øÿÿÿÿ
+G
+java:S1905/",Remove this unnecessary cast to "Throwable".(ã½¬äùÿÿÿÿ
+D
+java:S1905h")Remove this unnecessary cast to "Object".(‰˜Àâúÿÿÿÿ
+?
+java:S1905v")Remove this unnecessary cast to "Object".(µ°›ƒ
+E
+java:S1905„")Remove this unnecessary cast to "Object".(Ã Øúşÿÿÿÿ
+E
+java:S1905’")Remove this unnecessary cast to "Object".(¸¸Ôšÿÿÿÿÿ
+E
+java:S1905 ")Remove this unnecessary cast to "Object".(öú£¶øÿÿÿÿ
+U
+java:S1854æ"9Remove this useless assignment to local variable "PRIME".(ğÉÖÄıÿÿÿÿ
+F
+java:S1481æ"*Remove this unused "PRIME" local variable.(ğÉÖÄıÿÿÿÿ

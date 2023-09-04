@@ -1,0 +1,41 @@
+
+n
+java:S3008"SRename this field "s_nextId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ô°Öşÿÿÿÿ
+k
+java:S1206j"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ
+P
+java:S1161f":Add the "@Override" annotation above this method signature(Á»›ê
+:
+java:S2097j"Add a type test to this method.(İ¢êÍıÿÿÿÿ
+U
+java:S1161j":Add the "@Override" annotation above this method signature(İ¢êÍıÿÿÿÿ
+>
+java:S1905k")Remove this unnecessary cast to "Object".(ıøõ7
+U
+java:S1161w":Add the "@Override" annotation above this method signature(ÇÄ†¿ıÿÿÿÿ
+Q
+java:S1161ƒ":Add the "@Override" annotation above this method signature(ÒÅ™Ş
+P
+java:S1161«":Add the "@Override" annotation above this method signature(ôÃµf
+Q
+java:S1161¯":Add the "@Override" annotation above this method signature(£“¼Ø
+V
+java:S1161³":Add the "@Override" annotation above this method signature(šÍåèşÿÿÿÿ
+Q
+java:S1161·":Add the "@Override" annotation above this method signature(Ú”îİ
+V
+java:S1161»":Add the "@Override" annotation above this method signature(êŠÇışÿÿÿÿ
+V
+java:S1161Ë":Add the "@Override" annotation above this method signature(ùİÎúÿÿÿÿ
+V
+java:S1161Û":Add the "@Override" annotation above this method signature(›Åº‰úÿÿÿÿ
+V
+java:S1161ÿ":Add the "@Override" annotation above this method signature(óÉ†ùÿÿÿÿ
+V
+java:S1161ƒ":Add the "@Override" annotation above this method signature(ÿ¦¢ˆøÿÿÿÿ
+Q
+java:S1161‡":Add the "@Override" annotation above this method signature(ÔÈƒò
+Q
+java:S1161‹":Add the "@Override" annotation above this method signature(ŠÚº—
+V
+java:S1161":Add the "@Override" annotation above this method signature(·Í÷¦ÿÿÿÿÿ

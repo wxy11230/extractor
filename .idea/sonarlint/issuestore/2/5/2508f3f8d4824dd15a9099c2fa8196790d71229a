@@ -1,0 +1,173 @@
+
+g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(å™Áóÿÿÿÿÿ8×äÊ¤1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ş†Œ¾ÿÿÿÿÿ8×äÊ¤1
+h	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(¯è¶¬ûÿÿÿÿ8×äÊ¤1
+c	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Î£é®8¤×äÊ¤1
+Q
+java:S37408"/Provide the parametrized type for this generic.(ş²²‰üÿÿÿÿ8˜·§ş¢1
+L
+java:S37409"/Provide the parametrized type for this generic.(«³ùÆ8˜·§ş¢1
+Q
+java:S3740:"/Provide the parametrized type for this generic.( ˆëıÿÿÿÿ8˜·§ş¢1
+Q
+java:S3740["/Provide the parametrized type for this generic.(ö•Ñ‹üÿÿÿÿ8—›°ş¢1
+R
+java:S3740¤"/Provide the parametrized type for this generic.(…¯ûÿÿÿÿ8”´³ş¢1
+R
+java:S3740¥"/Provide the parametrized type for this generic.(ó½èşÿÿÿÿ8”´³ş¢1
+M
+java:S3740¦"/Provide the parametrized type for this generic.(…Ëİñ8•´³ş¢1
+R
+java:S3740§"/Provide the parametrized type for this generic.(İ¨¼„üÿÿÿÿ8ø³ş¢1
+M
+java:S3740œ"/Provide the parametrized type for this generic.(ùÒ›‰8´Â´ş¢1
+M
+java:S3740º"/Provide the parametrized type for this generic.(•×ŞÏ8ø³ş¢1
+M
+java:S3740»"/Provide the parametrized type for this generic.(ü…Ô®8ø³ş¢1
+R
+java:S3740¼"/Provide the parametrized type for this generic.(™å«ÿÿÿÿÿ8´Â´ş¢1
+M
+java:S3740Ÿ"/Provide the parametrized type for this generic.(˜ÿÓö8´Â´ş¢1
+M
+java:S3740 "/Provide the parametrized type for this generic.(ÌÌŠš8´Â´ş¢1
+M
+java:S3740¡"/Provide the parametrized type for this generic.(Î³Ã8µÂ´ş¢1
+À
+java:S11923"Define a constant instead of duplicating this literal "An error occurred during the collection process and the data was not written to the database" 4 times.(ÇéßŞøÿÿÿÿ8çá¯ş¢1
+‘
+java:S1192…"nDefine a constant instead of duplicating this literal "Insert {} column entity records successfully!" 8 times.(£õ¶ıÿÿÿÿ8çá¯ş¢1
+
+java:S1192i"mDefine a constant instead of duplicating this literal "Insert {} table entity records successfully!" 6 times.(Ñ¾Àğøÿÿÿÿ8èá¯ş¢1
+’
+java:S1192D"pDefine a constant instead of duplicating this literal "Insert {} database entity records successfully!" 6 times.(ôøÀùÿÿÿÿ8èá¯ş¢1
+t
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(å™Áóÿÿÿÿÿ8É·§ş¢1
+
+java:S11301"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(å™Áóÿÿÿÿÿ8¯àäÊ¤1
+[
+java:S1155>">Use isEmpty() to check whether the collection is empty or not.(‡Í²ä8»àäÊ¤1
+I
+java:S1905C"'Remove this unnecessary cast to "List".(‘à¶ßıÿÿÿÿ8ÍàäÊ¤1
+`
+java:S1155O">Use isEmpty() to check whether the collection is empty or not.(±’Òæÿÿÿÿÿ8šâ¯ş¢1
+I
+java:S1905P"'Remove this unnecessary cast to "List".(‘à¶ßıÿÿÿÿ8ÜàäÊ¤1
+`
+java:S1155Z">Use isEmpty() to check whether the collection is empty or not.(‹ëÒÈşÿÿÿÿ8ŞàäÊ¤1
+D
+java:S1905h"'Remove this unnecessary cast to "List".(Õîèã8áàäÊ¤1
+`
+java:S1155t">Use isEmpty() to check whether the collection is empty or not.(€ÎèÅûÿÿÿÿ8œâ¯ş¢1
+D
+java:S1905u"'Remove this unnecessary cast to "List".(Õîèã8áàäÊ¤1
+`
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(Û•ëùÿÿÿÿ8âàäÊ¤1
+E
+java:S1905„"'Remove this unnecessary cast to "List".(Ä–Ü¨8äàäÊ¤1
+\
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ÚäÌŸ8â¯ş¢1
+E
+java:S1905‘"'Remove this unnecessary cast to "List".(Ä–Ü¨8æàäÊ¤1
+u
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 93 to the 15 allowed.(Ş†Œ¾ÿÿÿÿÿ8òÂ´ş¢1
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ş†Œ¾ÿÿÿÿÿ8êàäÊ¤1
+a
+java:S1155¬">Use isEmpty() to check whether the collection is empty or not.(Âü´Šùÿÿÿÿ8ûàäÊ¤1
+J
+java:S1905±"'Remove this unnecessary cast to "List".(Ø£ƒúÿÿÿÿ8ıàäÊ¤1
+a
+java:S1155½">Use isEmpty() to check whether the collection is empty or not.(±’Òæÿÿÿÿÿ8Ãø³ş¢1
+J
+java:S1905¾"'Remove this unnecessary cast to "List".(Ø£ƒúÿÿÿÿ8şàäÊ¤1
+a
+java:S1155È">Use isEmpty() to check whether the collection is empty or not.(ÎÈ¥¹úÿÿÿÿ8ÿàäÊ¤1
+J
+java:S1905Í"'Remove this unnecessary cast to "List".(…ÇŞÿÿÿÿÿ8€áäÊ¤1
+a
+java:S1155Ù">Use isEmpty() to check whether the collection is empty or not.(€ÎèÅûÿÿÿÿ8Åø³ş¢1
+J
+java:S1905Ú"'Remove this unnecessary cast to "List".(…ÇŞÿÿÿÿÿ8ŠáäÊ¤1
+a
+java:S1155ä">Use isEmpty() to check whether the collection is empty or not.(‰¥Ÿëúÿÿÿÿ8™áäÊ¤1
+J
+java:S1905é"'Remove this unnecessary cast to "List".(¹ëÌ“üÿÿÿÿ8ªáäÊ¤1
+\
+java:S1155õ">Use isEmpty() to check whether the collection is empty or not.(ÚäÌŸ8Æø³ş¢1
+J
+java:S1905ö"'Remove this unnecessary cast to "List".(¹ëÌ“üÿÿÿÿ8¬áäÊ¤1
+\
+java:S1155€">Use isEmpty() to check whether the collection is empty or not.(µùŒ8­áäÊ¤1
+J
+java:S1905…"'Remove this unnecessary cast to "List".(Ü’‰şøÿÿÿÿ8®áäÊ¤1
+\
+java:S1155‘">Use isEmpty() to check whether the collection is empty or not.(ˆ¸¯…8úÂ´ş¢1
+J
+java:S1905’"'Remove this unnecessary cast to "List".(Ü’‰şøÿÿÿÿ8¹áäÊ¤1
+\
+java:S1155›">Use isEmpty() to check whether the collection is empty or not.(…ÎøÍ8»áäÊ¤1
+u
+java:S3776³"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.(¯è¶¬ûÿÿÿÿ8î·§ş¢1
+
+java:S1130³"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯è¶¬ûÿÿÿÿ8ËáäÊ¤1
+a
+java:S1155À">Use isEmpty() to check whether the collection is empty or not.(ÕşÃûûÿÿÿÿ8ÍáäÊ¤1
+E
+java:S1905Å"'Remove this unnecessary cast to "List".(‘±ûÍ8ÎáäÊ¤1
+a
+java:S1155Ñ">Use isEmpty() to check whether the collection is empty or not.(±’Òæÿÿÿÿÿ8Ã´ş¢1
+E
+java:S1905Ò"'Remove this unnecessary cast to "List".(‘±ûÍ8ĞáäÊ¤1
+\
+java:S1155Ü">Use isEmpty() to check whether the collection is empty or not.(ØÊËŠ8ÑáäÊ¤1
+J
+java:S1905á"'Remove this unnecessary cast to "List".(éò«÷ıÿÿÿÿ8ØáäÊ¤1
+a
+java:S1155í">Use isEmpty() to check whether the collection is empty or not.(€ÎèÅûÿÿÿÿ8‚Ã´ş¢1
+J
+java:S1905î"'Remove this unnecessary cast to "List".(éò«÷ıÿÿÿÿ8éáäÊ¤1
+\
+java:S1155ø">Use isEmpty() to check whether the collection is empty or not.(ÒÚ·Ò8êáäÊ¤1
+J
+java:S1905ı"'Remove this unnecessary cast to "List".(ñ¼Øşÿÿÿÿ8ìáäÊ¤1
+\
+java:S1155‰">Use isEmpty() to check whether the collection is empty or not.(ÚäÌŸ8„Ã´ş¢1
+J
+java:S1905Š"'Remove this unnecessary cast to "List".(ñ¼Øşÿÿÿÿ8ìáäÊ¤1
+p
+java:S3776˜"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.(Î£é®8÷·§ş¢1
+Š
+java:S1130˜"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Î£é®8øáäÊ¤1
+[
+java:S1155¥">Use isEmpty() to check whether the collection is empty or not.(®éŸ/8‡âäÊ¤1
+J
+java:S1905ª"'Remove this unnecessary cast to "List".(³¡ øÿÿÿÿÿ8‰âäÊ¤1
+a
+java:S1155¶">Use isEmpty() to check whether the collection is empty or not.(ØÅÄ©şÿÿÿÿ8å´³ş¢1
+J
+java:S1905·"'Remove this unnecessary cast to "List".(³¡ øÿÿÿÿÿ8ŠâäÊ¤1
+a
+java:S1155Á">Use isEmpty() to check whether the collection is empty or not.(†œøõúÿÿÿÿ8‹âäÊ¤1
+E
+java:S1905Æ"'Remove this unnecessary cast to "List".(è—ï8âäÊ¤1
+\
+java:S1155Ò">Use isEmpty() to check whether the collection is empty or not.(ôÃÀÅ8æ´³ş¢1
+E
+java:S1905Ó"'Remove this unnecessary cast to "List".(è—ï8âäÊ¤1
+a
+java:S1155İ">Use isEmpty() to check whether the collection is empty or not.(®¶ÿÿÿÿÿ8âäÊ¤1
+E
+java:S1905â"'Remove this unnecessary cast to "List".(ìÆÆö8âäÊ¤1
+\
+java:S1155î">Use isEmpty() to check whether the collection is empty or not.(¬ —’8ç´³ş¢1
+E
+java:S1905ï"'Remove this unnecessary cast to "List".(ìÆÆö8âäÊ¤1
+è
+java:S65411"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 96 to 64, Complexity from 22 to 14, Nesting Level from 5 to 2, Number of Variables from 11 to 6.(å™Áóÿÿÿÿÿ8ÿ·§ş¢1
+ê
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 133 to 64, Complexity from 30 to 14, Nesting Level from 5 to 2, Number of Variables from 14 to 6.(Ş†Œ¾ÿÿÿÿÿ8Ã´ş¢1
+è
+java:S6541³"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 5 to 2, Number of Variables from 9 to 6.(¯è¶¬ûÿÿÿÿ8ÿ·§ş¢1
+ã
+java:S6541˜"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 5 to 2, Number of Variables from 9 to 6.(Î£é®8ÿ·§ş¢1

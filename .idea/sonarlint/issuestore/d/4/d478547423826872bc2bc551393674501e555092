@@ -1,0 +1,59 @@
+
+L
+java:S3740A"/Provide the parametrized type for this generic.(Ç–ş8ÏŸËƒ£1
+Q
+java:S3740B"/Provide the parametrized type for this generic.(»€´—şÿÿÿÿ8ÏŸËƒ£1
+Q
+java:S3740C"/Provide the parametrized type for this generic.(³ÏÒ½ıÿÿÿÿ8ÏŸËƒ£1
+Q
+java:S3740F"/Provide the parametrized type for this generic.(óÏÛÊÿÿÿÿÿ8µºËƒ£1
+L
+java:S3740W"/Provide the parametrized type for this generic.(ş÷Ÿ8µºËƒ£1
+Q
+java:S3740e"/Provide the parametrized type for this generic.(¹Ù¡Ôüÿÿÿÿ8µºËƒ£1
+Q
+java:S3740l"/Provide the parametrized type for this generic.(“—óğúÿÿÿÿ8µºËƒ£1
+t
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï–ãúÿÿÿÿ
+o
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(³€Ì
+t
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïûƒ¨úÿÿÿÿ
+t
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ğ»Ñüÿÿÿÿ
+t
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü¤ÏÑşÿÿÿÿ
+l	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èµ½µıÿÿÿÿ
+l	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë˜İøÿÿÿÿ
+f	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àò¯|
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…çìæúÿÿÿÿ
+g	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û•†´
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŞº×ûÿÿÿÿ
+l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìì¹éşÿÿÿÿ
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃáäÍ
+l	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìåˆºúÿÿÿÿ
+g	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çØ®»
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šİ¼¬üÿÿÿÿ
+g	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–˜â¯
+g	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶³Öã
+f	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÕõ7
+l	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÖÄıÿÿÿÿ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ñÛ·øÿÿÿÿ
+l	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ã°¦ûÿÿÿÿ
+g	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô…ïø
+l	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬•º†úÿÿÿÿ
+l	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒæ˜éøÿÿÿÿ
+l	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œĞÏÂøÿÿÿÿ
+f	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š³ö%
+h
+java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(éì¥
+`
+java:S1155O">Use isEmpty() to check whether the collection is empty or not.(´†õŒøÿÿÿÿ8ıŸËƒ£1
+Z
+java:S1155a">Use isEmpty() to check whether the collection is empty or not.(ëæ´c8şŸËƒ£1
+2
+java:S3457{"Not enough arguments.(ç³ã´8ÿŸËƒ£1
+U
+java:S1854ª"9Remove this useless assignment to local variable "PRIME".(ğÉÖÄıÿÿÿÿ
+F
+java:S1481ª"*Remove this unused "PRIME" local variable.(ğÉÖÄıÿÿÿÿ

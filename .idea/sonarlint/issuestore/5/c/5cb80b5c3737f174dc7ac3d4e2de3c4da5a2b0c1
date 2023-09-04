@@ -1,0 +1,109 @@
+
+t
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(²…ı ûÿÿÿÿ
+u
+java:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ú €…ıÿÿÿÿ
+p
+java:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡«‹™
+p
+java:S2293õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡«‹™
+p
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(©ãòª
+p
+java:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(†²¯
+u
+java:S2293ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(×¦œ£ıÿÿÿÿ
+p
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒˆÔ
+e
+java:S1192|"JDefine a constant instead of duplicating this literal "TABLE_CAT" 5 times.(Ìíå÷úÿÿÿÿ
+f
+java:S1192~"KDefine a constant instead of duplicating this literal "TABLE_NAME" 3 times.(¬é«øıÿÿÿÿ
+z
+java:S1192¶"cDefine a constant instead of duplicating this literal "Close the PreparedStatement error!" 4 times.(Íë¬Ò
+|
+java:S1192è"eDefine a constant instead of duplicating this literal "Gets the table and view list failed!" 3 times.(í´
+g
+java:S1192}"LDefine a constant instead of duplicating this literal "TABLE_SCHEM" 4 times.(×õâ˜şÿÿÿÿ
+g
+java:S1192’"KDefine a constant instead of duplicating this literal "rdb_oracle" 7 times.(Á¤ğêşÿÿÿÿ
+a
+java:S1192”"JDefine a constant instead of duplicating this literal "rdb_mysql" 6 times.(áÁ–›
+l	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŠÃÿÿÿÿÿ
+l	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û²´Øùÿÿÿÿ
+l	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Û–ëùÿÿÿÿ
+l	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í³Ç¨ùÿÿÿÿ
+l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì‰¯øÿÿÿÿ
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÔëÇ
+l	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÖÄıÿÿÿÿ
+l	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¥­Ùûÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÖÅÂøÿÿÿÿ
+l	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û£°­ùÿÿÿÿ
+G
+java:S19051",Remove this unnecessary cast to "Throwable".(Û—£ùøÿÿÿÿ
+D
+java:S1905=")Remove this unnecessary cast to "Object".(‘Æúèşÿÿÿÿ
+B
+java:S1905e",Remove this unnecessary cast to "Throwable".(ûÛ¯›
+h
+java:S3776r"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ü×
+D
+java:S1905s")Remove this unnecessary cast to "Object".(üá”âıÿÿÿÿ
+?
+java:S1481y")Remove this unused "user" local variable.(±Ø™
+E
+java:S1905›")Remove this unnecessary cast to "Object".(ÔÓü†ıÿÿÿÿ
+E
+java:S1905›")Remove this unnecessary cast to "Object".(ÔÓü†ıÿÿÿÿ
+E
+java:S1905 ")Remove this unnecessary cast to "Object".(ş¡Ù¦úÿÿÿÿ
+E
+java:S1905 ")Remove this unnecessary cast to "Object".(ş¡Ù¦úÿÿÿÿ
+E
+java:S1905¥")Remove this unnecessary cast to "Object".(Ã»‘Ïøÿÿÿÿ
+E
+java:S1905¥")Remove this unnecessary cast to "Object".(Ã»‘Ïøÿÿÿÿ
+E
+java:S1905©")Remove this unnecessary cast to "Object".(•êšÈúÿÿÿÿ
+0
+java:S3457¬"2nd argument is not used.(¾µå”
+@
+java:S1905¬")Remove this unnecessary cast to "Object".(¾µå”
+@
+java:S1905¬")Remove this unnecessary cast to "Object".(¾µå”
+C
+java:S1905¶",Remove this unnecessary cast to "Throwable".(Íë¬Ò
+n
+java:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(á¢‹şÿÿÿÿ
+F	java:S108×")Either remove or fill this block of code.(Æ½Ïå8¦½Úƒ£1
+i
+java:S3776î"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(çÅÄ
+F	java:S108†")Either remove or fill this block of code.(åÅî”8†ƒİƒ£1
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(·Ü¼¸ùÿÿÿÿ
+F	java:S108¯")Either remove or fill this block of code.(÷“÷–8îŞƒ£1
+K	java:S108¼")Either remove or fill this block of code.(ü¥ºòüÿÿÿÿ8ïŞƒ£1
+Q
+java:S1854ú":Remove this useless assignment to local variable "string".(‘¨êù
+@
+java:S1905ú")Remove this unnecessary cast to "String".(‘¨êù
+B
+java:S1481ú"+Remove this unused "string" local variable.(‘¨êù
+/
+java:S3457±"2nd argument is not used.(øŸÅk
+?
+java:S1905±")Remove this unnecessary cast to "Object".(øŸÅk
+?
+java:S1905±")Remove this unnecessary cast to "Object".(øŸÅk
+H
+java:S1905Ó",Remove this unnecessary cast to "Throwable".(œŒƒ¸şÿÿÿÿ
+C
+java:S1905è",Remove this unnecessary cast to "Throwable".(í´
+C
+java:S1905ù",Remove this unnecessary cast to "Throwable".(í´
+C
+java:S1905Š",Remove this unnecessary cast to "Throwable".(í´
+U
+java:S1854ì"9Remove this useless assignment to local variable "PRIME".(ğÉÖÄıÿÿÿÿ
+F
+java:S1481ì"*Remove this unused "PRIME" local variable.(ğÉÖÄıÿÿÿÿ

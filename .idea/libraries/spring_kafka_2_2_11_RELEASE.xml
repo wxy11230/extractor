@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-kafka-2.2.11.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/spring-kafka-2.2.11.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

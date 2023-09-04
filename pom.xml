@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.dtb</groupId>
+    <artifactId>extractor</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+
+
+    <properties>
+        <atlas.version>2.0.0.3.1.5.0-152</atlas.version>
+        <gson-version>2.6.2</gson-version>
+        <fastjson.version>1.2.75</fastjson.version>
+        <hadoop.version>3.0.0</hadoop.version>
+        <mybatis-spring-boot-starter.version>1.3.2</mybatis-spring-boot-starter.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.atlas</groupId>
+            <artifactId>atlas-client-v2</artifactId>
+            <version>${atlas.version}</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/atlas-client-common-2.0.0.3.1.5.0-152.jar</systemPath>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.atlas</groupId>
+            <artifactId>atlas-client-common</artifactId>
+            <version>${atlas.version}</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/atlas-client-v2-2.0.0.3.1.5.0-152.jar</systemPath>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.atlas</groupId>
+            <artifactId>atlas-intg</artifactId>
+            <version>${atlas.version}</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/atlas-intg-2.0.0.3.1.5.0-152.jar</systemPath>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>atlas-sdk</groupId>
+            <artifactId>atlas-sdk</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/atlas-sdk-1.0.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pivotal</groupId>
+            <artifactId>greenplum-jdbc</artifactId>
+            <version>5.1.4</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/greenplum-jdbc-5.1.4.jar</systemPath>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.huawei</groupId>
+            <artifactId>gsjdbc</artifactId>
+            <version>200</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/gsjdbc-200.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <!-- Hadoop Common -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>${hadoop.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot-starter.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.easyproject</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0.4</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.oracle.database.security</groupId>-->
+<!--            <artifactId>oraclepki</artifactId>-->
+<!--            <version>11.2.0.4</version>-->
+<!--        </dependency>-->
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>aliyun-repos</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-repos</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

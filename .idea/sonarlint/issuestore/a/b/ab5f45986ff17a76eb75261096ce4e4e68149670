@@ -1,0 +1,25 @@
+
+Ÿ
+java:S1192-"ƒDefine a constant instead of duplicating this literal "The collection is completed, start writing to the ods database...." 4 times.(ˆó½Éüÿÿÿÿ
+_
+java:S1192Z"IDefine a constant instead of duplicating this literal "stepName" 4 times.(ŸÁ©
+d
+java:S1192Y"IDefine a constant instead of duplicating this literal "isConfig" 4 times.(¼™´®øÿÿÿÿ
+j
+java:S1192]"ODefine a constant instead of duplicating this literal "configFileName" 4 times.(ˆÈëúÿÿÿÿ
+q
+java:S22591"OA "NullPointerException" could be thrown; "atlasMetadataStep" is nullable here.(Ñ’ø¨ÿÿÿÿÿ8ş‡ôÿ£1
+l
+java:S2259B"OA "NullPointerException" could be thrown; "kafkaMetadataStep" is nullable here.(©…Ê8ş‡ôÿ£1
+o
+java:S2259:"MA "NullPointerException" could be thrown; "mppMetadataStep" is nullable here.(‡»ìíşÿÿÿÿ8ı‡ôÿ£1
+g
+java:S2259)"JA "NullPointerException" could be thrown; "metadataStep" is nullable here.(“‚±ò8ı‡ôÿ£1
+0
+java:S3457J"Not enough arguments.(³Ãê‹øÿÿÿÿ
+G
+java:S1905J",Remove this unnecessary cast to "Throwable".(³Ãê‹øÿÿÿÿ
+F
+java:S1905S")Remove this unnecessary cast to "String".(ÒÂíİ8—ˆôÿ£1
+7	java:S131W""Add a default case to this switch.(ÜŸ•
+T	java:S106¥"9Replace this use of System.out or System.err by a logger.(É»€ûÿÿÿÿ

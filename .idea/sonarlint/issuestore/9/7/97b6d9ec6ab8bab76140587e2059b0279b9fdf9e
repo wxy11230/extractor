@@ -1,0 +1,117 @@
+
+L
+java:S3740c"/Provide the parametrized type for this generic.(¯âÓÑ8Êªøş¢1
+L
+java:S3740d"/Provide the parametrized type for this generic.(òÅ‘ì8ºğŠÿ¢1
+Q
+java:S3740o"/Provide the parametrized type for this generic.(¥Ì­ûÿÿÿÿ8‘ôş¢1
+L
+java:S3740p"/Provide the parametrized type for this generic.(Ú ¬’8ò˜Òş¢1
+R
+java:S3740‚"/Provide the parametrized type for this generic.(¯Î¯ıÿÿÿÿ8ò˜Òş¢1
+M
+java:S3740±"/Provide the parametrized type for this generic.(½„ï¦8ò˜Òş¢1
+M
+java:S3740Ú"/Provide the parametrized type for this generic.( ‚Øô8‘ôş¢1
+R
+java:S3740œ"/Provide the parametrized type for this generic.(òÑí±ùÿÿÿÿ8‘ôş¢1
+M
+java:S3740ª"/Provide the parametrized type for this generic.(¡Ùî÷8‘ôş¢1
+M
+java:S3740æ"/Provide the parametrized type for this generic.(ü¢œ8‘ôş¢1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£áêâûÿÿÿÿ8ó˜Òş¢1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğİóùÿÿÿÿ8ó˜Òş¢1
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æû¥8ó˜Òş¢1
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÆŸœŠ8ó˜Òş¢1
+k
+java:S1192¦"HDefine a constant instead of duplicating this literal "columns" 5 times.(ó’³ øÿÿÿÿ8 ‘ôş¢1
+i
+java:S1192C"LDefine a constant instead of duplicating this literal "description" 5 times.(ø„Ëå8 ‘ôş¢1
+j
+java:S1192f"MDefine a constant instead of duplicating this literal "VIRTUAL_VIEW" 3 times.( ÎÛÑ8 ‘ôş¢1
+m
+java:S1192‚"JDefine a constant instead of duplicating this literal "queryText" 3 times.(¯Î¯ıÿÿÿÿ8 ‘ôş¢1
+h
+java:S1192A"FDefine a constant instead of duplicating this literal "owner" 6 times.(ÔÙ†áıÿÿÿÿ8 ‘ôş¢1
+i
+java:S1192^"LDefine a constant instead of duplicating this literal "displayText" 5 times.(¦ªìê8 ‘ôş¢1
+m
+java:S1192¢"ODefine a constant instead of duplicating this literal "lastAccessTime" 3 times.(É©İæ8 ‘ôş¢1
+k
+java:S11926"NDefine a constant instead of duplicating this literal "qualifiedName" 4 times.(õã’ê8 ‘ôş¢1
+h
+java:S1192"KDefine a constant instead of duplicating this literal "ddlQueries" 3 times.(Ş÷ùİ8 ‘ôş¢1
+j
+java:S1192Z"HDefine a constant instead of duplicating this literal "comment" 4 times.(ğ½±šúÿÿÿÿ8¡‘ôş¢1
+f
+java:S1192@"IDefine a constant instead of duplicating this literal "location" 3 times.(›ŠÄÅ8¡‘ôş¢1
+l
+java:S1192ğ"IDefine a constant instead of duplicating this literal "position" 4 times.(Ğüïúÿÿÿÿ8¡‘ôş¢1
+m	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õã’ê8¢‘ôş¢1
+n	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õŠ›Ç8õ˜Òş¢1
+s	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åú‚‹ıÿÿÿÿ8õ˜Òş¢1
+s	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÙØ¹ıÿÿÿÿ8õ˜Òş¢1
+n	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿€8õ˜Òş¢1
+s	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô€Şšÿÿÿÿÿ8õ˜Òş¢1
+n	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°åÉË8õ˜Òş¢1
+n	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¨úÎ8õ˜Òş¢1
+s	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Úú‘úÿÿÿÿ8õ˜Òş¢1
+s	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÛ´şÿÿÿÿ8õ˜Òş¢1
+s	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô‹Şáıÿÿÿÿ8õ˜Òş¢1
+n	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î£Á‰8õ˜Òş¢1
+n	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ»Ÿª8õ˜Òş¢1
+s	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÖÄıÿÿÿÿ8õ˜Òş¢1
+n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¦òÌ8õ˜Òş¢1
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ù î8õ˜Òş¢1
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éäü†8õ˜Òş¢1
+n	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÌú«8õ˜Òş¢1
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨şèÔ8õ˜Òş¢1
+m	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‹¢W8õ˜Òş¢1
+9
+java:S1643p"Use a StringBuilder instead.(Ú ¬’8¤‘ôş¢1
+?
+java:S1643‚"Use a StringBuilder instead.(¯Î¯ıÿÿÿÿ8¤‘ôş¢1
+:
+java:S1643±"Use a StringBuilder instead.(½„ï¦8Ïªøş¢1
+?
+java:S1643œ"Use a StringBuilder instead.(òÑí±ùÿÿÿÿ8ö˜Òş¢1
+?
+java:S1643¯"Use a StringBuilder instead.(ü’¿ãüÿÿÿÿ8Ïªøş¢1
+p
+java:S3776%"SRefactor this method to reduce its Cognitive Complexity from 131 to the 15 allowed.(¨¯°Ù8¨™Òş¢1
+\
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(¿’™8Å¸ìş¢1
+\
+java:S1155°">Use isEmpty() to check whether the collection is empty or not.(¿’™8é‘ôş¢1
+u
+java:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(şÏ·óúÿÿÿÿ8Ë™Òş¢1
+\
+java:S1155›">Use isEmpty() to check whether the collection is empty or not.(¿’™8ñ‘ôş¢1
+a
+java:S3878"CDisambiguate this call by either casting as "Object" or "Object[]".(¯¶Èı8×™Òş¢1
+a
+java:S3878"CDisambiguate this call by either casting as "Object" or "Object[]".(Å°ĞØ8×™Òş¢1
+G
+java:S1905‘")Remove this unnecessary cast to "Object".(Œã¸™8ŠÏíÌ¤1
+G
+java:S1905”")Remove this unnecessary cast to "Object".(«ÇÁ©8ŠÏíÌ¤1
+G
+java:S1905”")Remove this unnecessary cast to "Object".(«ÇÁ©8ŠÏíÌ¤1
+G
+java:S1905—")Remove this unnecessary cast to "Object".(¶‚í‰8‹ÏíÌ¤1
+G
+java:S1905—")Remove this unnecessary cast to "Object".(¶‚í‰8‹ÏíÌ¤1
+J
+java:S1905œ",Remove this unnecessary cast to "Throwable".(Îóª«8Ø™Òş¢1
+\
+java:S1854‰"9Remove this useless assignment to local variable "PRIME".(ğÉÖÄıÿÿÿÿ8İ™Òş¢1
+M
+java:S1481‰"*Remove this unused "PRIME" local variable.(ğÉÖÄıÿÿÿÿ8İ™Òş¢1
+T
+java:S1144ˆ"1Remove this unused private "metricVerify" method.(¦ç˜§ùÿÿÿÿ8ß™Òş¢1
+ä
+java:S6541%"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 216 to 64, Complexity from 26 to 14, Nesting Level from 8 to 2, Number of Variables from 55 to 6.(¨¯°Ù8â™Òş¢1

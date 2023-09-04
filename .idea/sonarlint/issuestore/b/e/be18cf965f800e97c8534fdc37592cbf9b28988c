@@ -1,0 +1,23 @@
+
+Q
+java:S3740G"/Provide the parametrized type for this generic.(úóû…úÿÿÿÿ8İ½ş¢1
+Q
+java:S3740J"/Provide the parametrized type for this generic.(®×Ó˜ÿÿÿÿÿ8úº½ş¢1
+o
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜¯¹–
+o
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Éİæ
+t
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñóĞ†ûÿÿÿÿ
+i
+java:S1192&"NDefine a constant instead of duplicating this literal "qualifiedName" 3 times.(¥ÅŸ©úÿÿÿÿ
+
+java:S1488'"iImmediately return this expression instead of assigning it to the temporary variable "entityWithExtInfo".(ĞšÍ
+y
+java:S1488A"^Immediately return this expression instead of assigning it to the temporary variable "result".(“ÂÁ¶şÿÿÿÿ
+^
+java:S38784"CDisambiguate this call by either casting as "Object" or "Object[]".(à¿ùœıÿÿÿÿ
+D
+java:S19055")Remove this unnecessary cast to "Object".(Û†¼Èúÿÿÿÿ
+m
+java:S3776E"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(È¤Ÿòüÿÿÿÿ
